@@ -1,18 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>
-        Hands-on Workshop on Autonomous Systems | IIT Guwahati
-    </title>
+    <title>Hands-on Workshop on Autonomous Systems | IIT Guwahati</title>
 
     <meta
         name="description"
@@ -20,235 +12,104 @@
     >
 
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 
 <body>
 
+    <!-- =========================
+         NAVBAR
+    ========================== -->
 
-    <!-- ================= NAVBAR ================= -->
-
-    <header class="navbar" id="navbar">
-
+    <header class="navbar">
         <div class="nav-container">
 
             <a href="#home" class="brand">
-
-                <img
-                    src="assets/iitg-logo.png"
-                    alt="IIT Guwahati Logo"
-                >
+                <img src="assets/iitg-logo.png" alt="IIT Guwahati Logo">
 
                 <div>
-
-                    <span class="brand-main">
-                        IIT Guwahati
-                    </span>
-
+                    <span class="brand-main">IIT Guwahati</span>
                     <span class="brand-sub">
-                        Electronics & Electrical Engineering
+                        Electronics &amp; Electrical Engineering
                     </span>
-
                 </div>
-
             </a>
 
+            <nav class="nav-menu" id="navMenu">
+                <a href="#program">Program</a>
+                <a href="#instructors">Instructors</a>
+            </nav>
 
             <button
                 class="nav-toggle"
                 id="navToggle"
-                aria-label="Toggle navigation"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="navMenu"
             >
-
                 <span></span>
                 <span></span>
                 <span></span>
-
             </button>
 
-
-            <nav class="nav-menu" id="navMenu">
-
-                <a href="#program">
-                    Program
-                </a>
-
-                <a href="#about">
-                    About
-                </a>
-
-                <a href="#instructors">
-                    Instructors
-                </a>
-
-            </nav>
-
         </div>
-
     </header>
 
 
-
-    <!-- ================= MAIN ================= -->
-
     <main>
 
-
-        <!-- ================= HERO ================= -->
+        <!-- =========================
+             HERO
+        ========================== -->
 
         <section class="hero" id="home">
 
             <div class="hero-container">
 
-
-                <!-- HERO CONTENT -->
+                <!-- LEFT SIDE -->
 
                 <div class="hero-content">
+
                     <h1>
                         Hands-on Workshop on
-
-                        <span>
-                            Autonomous Systems
-                        </span>
+                        <span>Autonomous Systems</span>
                     </h1>
 
-
                     <p class="hero-description">
-
                         Build, program and control autonomous systems through
                         intensive hands-on sessions in robotics, embedded
                         systems and smart energy management.
-
                     </p>
 
-
-                    <!-- HERO META -->
 
                     <div class="hero-meta">
 
                         <div class="hero-meta-item">
-
-                            <strong>
-                                07–09 Dec
-                            </strong>
-
-                            <span>
-                                2026
-                            </span>
-
+                            <strong>07–09 Dec</strong>
+                            <span>2026</span>
                         </div>
 
-
                         <div class="hero-meta-item">
-
-                            <strong>
-                                9:30 AM – 5 PM
-                            </strong>
-
-                            <span>
-                                3 Days
-                            </span>
-
+                            <strong>9:30 AM – 5 PM</strong>
+                            <span>3 Days</span>
                         </div>
 
+                    <div class="hero-meta-item">
+                        <strong>Offline</strong>
+                        <span>In-person · Hands-on</span>
+                    </div>
 
                         <div class="hero-meta-item">
-
-                            <strong>
-                                Offline
-                            </strong>
-
-                            <span>
-                                IIT Guwahati
-                            </span>
-
-                        </div>
-
-
-                        <div class="hero-meta-item">
-
-                            <strong>
-                                ₹2,000 + GST
-                            </strong>
-
-                            <span>
-                                Registration Fee
-                            </span>
-
+                            <strong>Registration Fee</strong>
+                            <span>₹2,000 + GST</span>
                         </div>
 
                     </div>
 
-
-                    <!-- HERO DETAILS -->
-
-                    <div class="hero-details">
-
-                        <div class="hero-detail-item">
-
-                            <span class="hero-detail-icon">
-                                01
-                            </span>
-
-                            <div>
-
-                                <strong>
-                                    Food & Accommodation
-                                </strong>
-
-                                <p>
-                                    Food and hostel accommodation will be
-                                    provided during the workshop.
-                                </p>
-
-                            </div>
-
-                        </div>
-
-
-                        <div class="hero-detail-item">
-
-                            <span class="hero-detail-icon">
-                                02
-                            </span>
-
-                            <div>
-
-                                <strong>
-                                    Laptop & Hardware
-                                </strong>
-
-                                <p>
-                                    Participants must bring a laptop with
-                                    <b>Arduino IDE</b> installed. Hardware
-                                    will be provided and must be returned.
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <!-- HERO BUTTONS -->
 
                     <div class="hero-buttons">
 
-                        <a
-                            href="GOOGLE_FORM_URL"
-                            class="btn btn-primary"
-                        >
+                        <a href="GOOGLE_FORM_URL" class="btn btn-primary">
                             Register Now
-                        </a>
-
-
-                        <a
-                            href="WORKSHOP_DETAILS_PDF_URL"
-                            class="btn btn-secondary"
-                        >
-                            Workshop Schedule Coming Soon
                         </a>
 
                     </div>
@@ -256,69 +117,40 @@
                 </div>
 
 
+                <!-- RIGHT SIDE -->
 
-                <!-- HERO SIDE PANEL -->
+                <div class="hero-side-info">
 
-                <div class="hero-side-panel">
+                    <div class="info-poster">
+                        <div class="info-poster-number">01</div>
 
-                    <div class="hero-panel-label">
-                        HANDS-ON WORKSHOP
-                    </div>
+                        <div class="info-poster-content">
+                            <h3>What will be provided?</h3>
 
-
-                    <div class="hero-panel-title">
-
-                        From components
-
-                        <span>
-                            to autonomy.
-                        </span>
-
-                    </div>
-
-
-                    <div class="hero-panel-line"></div>
-
-
-                    <div class="hero-panel-project">
-
-                        <span class="hero-panel-number">
-                            01
-                        </span>
-
-                        <div>
-
-                            <strong>
-                                Self-Balancing Robot
-                            </strong>
-
-                            <p>
-                                Sensors · Embedded Control · Actuation
-                            </p>
-
+                            <ul>
+                                <li>Breakfast, lunch and dinner</li>
+                                <li>
+                                    Hostel accommodation
+                                    <span class="poster-note">
+                                        (6th night – 10th morning)
+                                    </span>
+                                </li>
+                                <li>Electronic components</li>
+                            </ul>
                         </div>
-
                     </div>
 
 
-                    <div class="hero-panel-project">
+                    <div class="info-poster">
+                        <div class="info-poster-number">02</div>
 
-                        <span class="hero-panel-number">
-                            02
-                        </span>
+                        <div class="info-poster-content">
+                            <h3>What to bring?</h3>
 
-                        <div>
-
-                            <strong>
-                                Smart Energy Management
-                            </strong>
-
-                            <p>
-                                Sensing · Control · Energy Systems
-                            </p>
-
+                            <ul>
+                                <li>Laptop with Arduino IDE installed</li>
+                            </ul>
                         </div>
-
                     </div>
 
                 </div>
@@ -328,8 +160,9 @@
         </section>
 
 
-
-        <!-- ================= PROGRAM ================= -->
+        <!-- =========================
+             PROGRAM
+        ========================== -->
 
         <section class="section" id="program">
 
@@ -337,21 +170,19 @@
 
                 <div class="section-heading">
 
-                    <span class="section-number">
+                    <div class="section-number">
                         01
-                    </span>
+                    </div>
 
                     <div>
 
-                        <p class="section-label">
+                        <div class="section-label">
                             PROGRAM
-                        </p>
+                        </div>
 
                         <h2>
                             Three days of
-                            <span>
-                                hands-on learning.
-                            </span>
+                            <span>hands-on learning.</span>
                         </h2>
 
                     </div>
@@ -361,26 +192,19 @@
 
                 <div class="timeline">
 
-
                     <!-- DAY 01 -->
 
                     <div class="timeline-item">
 
                         <div class="timeline-day">
-
-                            <span>
-                                DAY
-                            </span>
-
+                            <span>DAY</span>
                             01
-
                         </div>
-
 
                         <div class="timeline-content">
 
                             <h3>
-                                Embedded Systems & Hardware
+                                Embedded Systems &amp; Hardware
                             </h3>
 
                             <p>
@@ -394,26 +218,19 @@
                     </div>
 
 
-
                     <!-- DAY 02 -->
 
                     <div class="timeline-item">
 
                         <div class="timeline-day">
-
-                            <span>
-                                DAY
-                            </span>
-
+                            <span>DAY</span>
                             02
-
                         </div>
-
 
                         <div class="timeline-content">
 
                             <h3>
-                                Sensing, Communication & Control
+                                Sensing, Communication &amp; Control
                             </h3>
 
                             <p>
@@ -427,37 +244,79 @@
                     </div>
 
 
-
                     <!-- DAY 03 -->
 
                     <div class="timeline-item">
 
                         <div class="timeline-day">
-
-                            <span>
-                                DAY
-                            </span>
-
+                            <span>DAY</span>
                             03
-
                         </div>
-
 
                         <div class="timeline-content">
 
                             <h3>
-                                Autonomous Systems & Capstone Projects
+                                Autonomous Systems &amp; Capstone Projects
                             </h3>
 
                             <p>
-                                Build and test autonomous systems including
-                                a self-balancing two-wheel robot and a
-                                smart home energy management system.
+                                Build and test autonomous systems through
+                                two hands-on capstone projects:
                             </p>
+
+
+<div class="project-list">
+
+    <div class="project-item">
+        <div class="project-number">01</div>
+        <div>
+            <h4>Self-Balancing Robot</h4>
+            <p>Sensors · Embedded Control · Actuation</p>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-number">02</div>
+        <div>
+            <h4>Smart Energy Management</h4>
+            <p>Sensing · Control · Energy Systems</p>
+        </div>
+    </div>
+
+</div>
+
+
+                            <p class="day03-tagline">
+                                Learn autonomous systems
+                                <span>by building them.</span>
+                            </p>
+
+
+                            <!-- <div class="schedule-button">
+
+                                <a
+                                    href="WORKSHOP_DETAILS_PDF_URL"
+                                    class="btn btn-secondary"
+                                >
+                                    Workshop Schedule (Coming Soon)
+                                </a>
+
+                            </div> -->
 
                         </div>
 
                     </div>
+
+                </div>
+
+                <div class="schedule-button">
+
+                    <a
+                        href="WORKSHOP_DETAILS_PDF_URL"
+                        class="btn btn-secondary"
+                    >
+                        Workshop Schedule (Coming Soon)
+                    </a>
 
                 </div>
 
@@ -466,89 +325,29 @@
         </section>
 
 
+        <!-- =========================
+             INSTRUCTORS
+        ========================== -->
 
-        <!-- ================= ABOUT ================= -->
-
-        <section class="section about-section" id="about">
-
-            <div class="container">
-
-                <div class="about-layout">
-
-
-                    <div class="about-label">
-
-                        <span class="section-number">
-                            02
-                        </span>
-
-                        <p class="section-label">
-                            ABOUT THE WORKSHOP
-                        </p>
-
-                    </div>
-
-
-                    <div class="about-main">
-
-                        <h2>
-                            Learn autonomous systems
-                            <span>
-                                by building them.
-                            </span>
-                        </h2>
-
-
-                        <div class="about-description">
-
-                            <p>
-                                This three-day workshop is designed to provide
-                                M.Tech students and final-year B.Tech
-                                students/graduates with practical experience
-                                in building autonomous systems.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ================= INSTRUCTORS ================= -->
-
-        <section
-            class="section section-dark"
-            id="instructors"
-        >
+        <section class="section section-dark" id="instructors">
 
             <div class="container">
-
-
-                <!-- SECTION HEADING -->
 
                 <div class="section-heading light">
 
-                    <span class="section-number">
-                        03
-                    </span>
+                    <div class="section-number">
+                        02
+                    </div>
 
                     <div>
 
-                        <p class="section-label">
+                        <div class="section-label">
                             INSTRUCTORS
-                        </p>
+                        </div>
 
                         <h2>
-                            Learn from
-                            <span>
-                                IIT Guwahati faculty.
-                            </span>
+                            Learn from 
+                            <span>IIT Guwahati faculty.</span>
                         </h2>
 
                     </div>
@@ -556,139 +355,105 @@
                 </div>
 
 
-
-                <!-- ================= MAIN INSTRUCTORS ================= -->
+                <!-- MAIN INSTRUCTORS -->
 
                 <div class="instructor-grid">
 
-
                     <!-- PROF. PRABIR BAROOAH -->
 
-                    <article class="instructor-card">
+                    <div class="instructor-card">
 
                         <div class="instructor-image">
-
                             <img
                                 src="assets/prabir-barooah.jpg"
                                 alt="Prof. Prabir Barooah"
                             >
-
                         </div>
 
-
                         <div class="instructor-content">
-
-                            <p class="instructor-role">
-                                MAIN COORDINATOR & INSTRUCTOR
-                            </p>
-
 
                             <h3>
                                 Prof. Prabir Barooah
                             </h3>
 
-
                             <p class="instructor-affiliation">
-
-                                Department of Electronics and Electrical Engineering
-
-                                <br>
-
+                                Department of Electronics &amp;
+                                Electrical Engineering<br>
                                 Indian Institute of Technology Guwahati
-
                             </p>
-
 
                             <div class="instructor-email">
 
                                 <span class="email-label">
-                                    EMAIL:
+                                    EMAIL
                                 </span>
 
-                                <a href="mailto:pbarooah@iitg.ac.in">
-                                    pbarooah@iitg.ac.in
+                                <a href="mailto:barooah@iitg.ac.in">
+                                    barooah@iitg.ac.in
                                 </a>
 
                             </div>
 
                         </div>
 
-                    </article>
-
+                    </div>
 
 
                     <!-- DR. CHAYAN BHAWAL -->
 
-                    <article class="instructor-card">
+                    <div class="instructor-card">
 
                         <div class="instructor-image">
-
                             <img
                                 src="assets/chayan-bhawal.jpg"
                                 alt="Dr. Chayan Bhawal"
                             >
-
                         </div>
 
-
                         <div class="instructor-content">
-
-                            <p class="instructor-role">
-                                INSTRUCTOR
-                            </p>
-
 
                             <h3>
                                 Dr. Chayan Bhawal
                             </h3>
 
-
                             <p class="instructor-affiliation">
-
-                                Department of Electronics and Electrical Engineering
-
-                                <br>
-
+                                Department of Electronics &amp;
+                                Electrical Engineering<br>
                                 Indian Institute of Technology Guwahati
-
                             </p>
-
 
                             <div class="instructor-email">
 
                                 <span class="email-label">
-                                    EMAIL:
+                                    EMAIL
                                 </span>
 
-                                <a href="mailto:bhawal@iitg.ac.in">
-                                    bhawal@iitg.ac.in
+                                <a href="mailto:chayan.bhawal@iitg.ac.in">
+                                    chayan.bhawal@iitg.ac.in
                                 </a>
 
                             </div>
 
                         </div>
 
-                    </article>
+                    </div>
 
                 </div>
 
 
-
-                <!-- ================= TEACHING ASSISTANTS ================= -->
+                <!-- TEACHING ASSISTANTS -->
 
                 <div class="teaching-assistants">
 
                     <div class="ta-heading">
 
-                        <p class="section-label">
+                        <div class="section-label">
                             TEACHING ASSISTANTS
-                        </p>
+                        </div>
 
                         <h3>
                             The team behind the
-                            <span>
-                                hands-on sessions.
-                            </span>
+                            <span>hands-on sessions.</span>
                         </h3>
 
                     </div>
@@ -696,37 +461,32 @@
 
                     <div class="ta-grid">
 
-
                         <div class="ta-card">
                             <h4>Dr. Siddhanta Bora</h4>
                             <p>Postdoctoral Researcher</p>
                         </div>
-
 
                         <div class="ta-card">
                             <h4>Athoibi Devi</h4>
                             <p>PhD Research Scholar</p>
                         </div>
 
-
                         <div class="ta-card">
                             <h4>Narendra Sona</h4>
                             <p>PhD Research Scholar</p>
                         </div>
-
 
                         <div class="ta-card">
                             <h4>Subhadeep Paul</h4>
                             <p>PhD Research Scholar</p>
                         </div>
 
-
                         <div class="ta-card">
                             <h4>Malemnganba Sanasam</h4>
                             <p>PhD Research Scholar</p>
                         </div>
 
-                        <div class="ta-card">
+                         <div class="ta-card">
                             <h4>Meethi Singh</h4>
                             <p>PhD Research Scholar</p>
                         </div>
@@ -736,11 +496,11 @@
                             <p>PhD Research Scholar</p>
                         </div>
 
-
                         <div class="ta-card">
                             <h4>Mrinmoy Singha</h4>
                             <p>PhD Research Scholar</p>
                         </div>
+
 
 
                         <div class="ta-card">
@@ -748,49 +508,42 @@
                             <p>PhD Research Scholar</p>
                         </div>
 
-
                         <div class="ta-card">
                             <h4>Manish Gupta</h4>
                             <p>M.Tech Student</p>
                         </div>
-
 
                         <div class="ta-card">
                             <h4>Mainak Bhattacharya</h4>
                             <p>M.Tech Student</p>
                         </div>
 
-
                         <div class="ta-card">
                             <h4>Bishwajit Sarmah</h4>
                             <p>Project Associate</p>
                         </div>
-
 
                         <div class="ta-card">
                             <h4>Hemantajit Gogoi</h4>
                             <p>Project Associate</p>
                         </div>
 
-
                     </div>
 
                 </div>
 
 
-
-                <!-- ================= CONTACT NOTE ================= -->
+                <!-- CONTACT -->
 
                 <div class="instructor-contact-note">
 
-                    <span class="contact-note-line"></span>
+                    <div class="contact-note-line"></div>
 
                     <p>
-                        For any queries regarding the workshop, please contact
-                        the instructors at the email addresses provided above.
+                        For workshop-related queries, please contact the instructors at the email addresses provided above
                     </p>
 
-                    <span class="contact-note-line"></span>
+                    <div class="contact-note-line"></div>
 
                 </div>
 
@@ -801,9 +554,31 @@
     </main>
 
 
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
 
-    <script src="script.js"></script>
+    <script>
+
+        const navToggle = document.getElementById("navToggle");
+        const navMenu = document.getElementById("navMenu");
+
+        navToggle.addEventListener("click", () => {
+            const open = navMenu.classList.toggle("active");
+            navToggle.setAttribute("aria-expanded", open);
+        });
+
+
+        document.querySelectorAll(".nav-menu a").forEach(link => {
+
+            link.addEventListener("click", () => {
+                navMenu.classList.remove("active");
+                navToggle.setAttribute("aria-expanded", "false");
+            });
+
+        });
+
+    </script>
 
 </body>
-
 </html>
